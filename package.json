@@ -1,0 +1,48 @@
+{
+  "name": "@ainize-team/free-llm-api",
+  "version": "1.3.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "dev": "rm -rf ./dist && tsc",
+    "test": "NODE_ENV=dev jest --passWithNoTests",
+    "docs": "yarn build && typedoc --options typedoc.json --out docs"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ainize-team/free-llm-api.git"
+  },
+  "keywords": [
+    "ainize",
+    "ainetwork",
+    "ain",
+    "TypeScript",
+    "SDK",
+    "API"
+  ],
+  "author": "AINIZE Team",
+  "license": "MIT",
+  "files": [
+    "/dist"
+  ],
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jest": "^27.4.1",
+    "@types/lodash": "^4.14.197",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "typedoc": "^0.23.17",
+    "typedoc-plugin-remove-references": "^0.0.6",
+    "typedoc-plugin-rename-defaults": "^0.6.4",
+    "typedoc-theme-hierarchy": "^3.0.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@ainize-team/ainize-js": "^1.3.1",
+    "lodash": "^4.17.21"
+  }
+}

@@ -1,0 +1,1 @@
+export const SERVICE_NAME = 'ainize_free_inference'

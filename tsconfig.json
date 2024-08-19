@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "declaration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "outDir": "./dist",
+    "pretty": true,
+    "sourceMap": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "target": "es2016",
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "typedocOptions": {
+      "entryPoints": ["./src"],
+      "entryPointStrategy": "expand",
+      "out": "docs",
+      "name": "free-llm-api",
+      "plugin": ["typedoc-plugin-remove-references", "typedoc-plugin-rename-defaults",  "typedoc-theme-hierarchy"],
+      "theme": "hierarchy"
+    }
+}
