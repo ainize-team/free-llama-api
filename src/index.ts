@@ -19,11 +19,11 @@ export default class FreeAinize{
     this.disconnectCb = disconnectCb
   }
 
-  async login(){
+  async login(): Promise<void>{
     await this.Ainize.login(this.privateKey, this.connectCb,this.disconnectCb);
   }
 
-  async inference(prompt:string){
+  async inference(prompt:string): Promise<InferenceRes>{
     const service = await this.Ainize.getService(SERVICE_NAME)
     const request = {
       prompt

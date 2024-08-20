@@ -1,0 +1,3 @@
+type InferenceRes = {
+  prompt: string
+}
