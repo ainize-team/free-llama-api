@@ -41,7 +41,7 @@ This project provides blockchain-based solutions using various models available 
 ## Usage
 
 ```
-npm i @ainize-team/free-llm/api
+npm i @ainize-team/free-llm-api
 ```
 
 ```ts
