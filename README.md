@@ -5,13 +5,40 @@
 <p align="center">
     <p align="center">Call LLM APIs with Ainize Free. </p>
 </p>
+## Introduction
+This project provides blockchain-based solutions using various models available for free through Ainize. The models operate on GPUs supported by LLM FUNDING. To enhance user convenience, we have simplified complex processes such as blockchain network setup.
 
-이건 블록체인을 통하는 것이다. supportedLLM은 변경될 수 있다. 
-시작할 때마다 블록체인 account를 생성하고 있는데, 고정된 address를 쓰고 싶으면 Ainize 생성할 때 주입해주면 된다. 
-해당 모델은 LLM FUNDING(링크)을 통해서 지원받은 GPU로 제공된다.
-너의 Inference기록은 블록체인에 남으므로, 민감한 정보는 적지 마라.
+## Key Features
+1. **Automatic Wallet Creation**:
+    - A new blockchain account is automatically created when the SDK starts.
+    - You can inject a fixed address during Ainize creation if you prefer to use a constant address.
 
-# Usage
+2. **Access to Company Models**:
+    - Models provided by the company are available for free only through Ainize.
+
+3. **Simplified Blockchain Knowledge**:
+    - Network setup and deposit procedures are simplified for easier user experience.
+
+## Usage
+1. **Automatic Wallet Creation**:
+    - A new blockchain account is created automatically when the SDK starts.
+    - If you want to use a fixed address, inject it during Ainize creation.
+
+2. **Blockchain Accounts**:
+    - A new blockchain account is generated each time the project starts.
+    - Use a fixed address by specifying it during Ainize creation.
+
+3. **GPU Support**:
+    - The provided models are powered by GPUs supported through [LLM FUNDING](link).
+
+4. **Data Security**:
+    - Your inference records are stored on the blockchain.
+    - Avoid submitting sensitive information.
+
+## Note
+- Do not input sensitive data while using the models. All inference records are stored on the blockchain.
+  
+## Usage
 
 ```
 npm i @ainize-team/free-llm/api
@@ -31,7 +58,7 @@ main()
 # Features
 
 # Supported LLM (2024.08.20)
-- llama-3.11 8B -> model config같은 세팅 정보
+- gemma2
 
 # Contributing
 
