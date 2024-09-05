@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-    <p align="center">Call LLM APIs with Ainize Free. </p>
+    <p align="center">Call LLM APIs with [Ainize](https://github.com/ainize-team/ainize-js) Free. </p>
 </p>
 ## Introduction
 This project provides blockchain-based solutions using various models available for free through Ainize. The models operate on GPUs supported by LLM FUNDING. To enhance user convenience, we have simplified complex processes such as blockchain network setup.
@@ -29,7 +29,7 @@ This project provides blockchain-based solutions using various models available 
     - Use a fixed address by specifying it during Ainize creation.
 
 3. **GPU Support**:
-    - The provided models are powered by GPUs supported through [LLM FUNDING](link).
+    - The provided models are powered by GPUs supported through [LLM FUNDING](https://gpu.ainetwork.ai).
 
 4. **Data Security**:
     - Your inference records are stored on the blockchain.
