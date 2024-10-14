@@ -9,7 +9,7 @@ Web3-powered AI inference made simple with llama 3.2 90B
 
 ## 📘 Introduction
 
-**FreeAinize.js** provides Web3-based solutions using advanced language models such as **llama 3.2 90B**, available for free through Ainize. This multimodal model, currently supporting **text-only inferences**, offers powerful AI capabilities without requiring complex blockchain setups. Start using **meta-llama/Llama-3.2-90B-Vision-Instruct** through our API for your text-based AI needs.
+**Free LLaMA API** provides Web3-based solutions using advanced language models such as **llama 3.2 90B**, available for free through Ainize. This multimodal model, currently supporting **text-only inferences**, offers powerful AI capabilities without requiring complex blockchain setups. Start using **meta-llama/Llama-3.2-90B-Vision-Instruct** through our API for your text-based AI needs.
 
 ## 🦙 How to use **Llama-3.2-90B-Vision-Instruct** FOR FREE
 
