@@ -1,9 +1,9 @@
 <h1 align="center">
-FreeAinize.js
+Free LLaMA API
 </h1>
 
 <p align="center">
-<strong>Call LLM APIs with Ainize for Free</strong><br>
+<strong>Call LLaMA APIs with Ainize for Free</strong><br>
 Web3-powered AI inference made simple with llama 3.2 90B
 </p>
 
