@@ -27,7 +27,7 @@ yarn add @ainize-team/free-llm-api
 const FreeAinize = require('@ainize-team/free-llm-api').default;
 
 const main = async () => {
-  const freeAinize = new FreeAinize(0);
+  const freeAinize = new FreeAinize();
   await freeAinize.login();
   const result = await freeAinize.inference("Hello, world! This is llama 3.2 90B.");
   console.log(result);
