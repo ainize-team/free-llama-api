@@ -27,8 +27,13 @@ yarn add @ainize-team/free-llm-api
 const FreeAinize = require('@ainize-team/free-llm-api').default;
 
 const main = async () => {
+  // Initialize Ainize with automatic blockchain wallet creation
   const freeAinize = new FreeAinize();
+
+  // Perform automatic login (this generates a new wallet with a private key)
   await freeAinize.login();
+
+  // Make an inference call
   const result = await freeAinize.inference("Hello, world! This is llama 3.2 90B.");
   console.log(result);
 }
@@ -38,7 +43,7 @@ main();
 
 ## ✨ Key Features
 
-1. **Automatic Wallet Creation**: A new blockchain account is generated each time the SDK starts, If you want to use a fixed address, inject it during Ainize creation.
+1. **Automatic Wallet Creation and Private Key Management**: Every time the SDK is initialized, a new blockchain account is generated along with a unique **private key**. This allows for the **secure signing of requests** on the blockchain. For cases where a fixed blockchain account is needed, you can inject your own private key when creating the Ainize instance.
 2. **Access to Premium Models**: Use the **Llama-3.2-90B-Vision-Instruct** model for free, exclusively through Ainize.
 3. **Simplified Blockchain Integration**: Blockchain setup and network procedures are handled automatically for ease of use.
 4. **Web3-Powered Inference**: All inference requests, including those with **Llama-3.2-90B-Vision-Instruct**, are processed and recorded on the blockchain.
